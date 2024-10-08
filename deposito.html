@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>peixinho</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="depositar.css">    
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Peixinho</h1>
+        <nav class="cabecalho__menu">
+            <a href="index.html"><img src="images/home.png"/></a>
+            <a href="ajuda.html"><img src="images/help.png"/></a>            
+        </nav>
+    </header>
+    <main> 
+        <div class="container">
+            <!-- Lado esquerdo: Formas de Depósito -->
+            <div class="formas-deposito">
+                <h2>Formas de Depósito</h2>
+                <ul>
+                    <li><a href="#"><img src="images/pix.png"/><span>Pix</span></a></li>
+                    <li><a href="#"><img src="images/boleto.png"/><span>Boleto Bancário</span></a></li>
+                    <li><a href="#"><img src="images/banco.png"/><span>Transferência Bancária</span></a></li>
+                    <li><a href="#"><img src="images/cartao.png"/><span>Cartão de Crédito</span></a></li>
+                </ul>
+            </div>
+    
+            <!-- Lado direito: Campos de Preenchimento -->
+            <div class="campos-deposito">
+                <h2>Informações do Depósito</h2>
+                <form>
+                    <label for="chave-pix">Chave Pix:</label>
+                    <input type="text" id="chave-pix" name="chave-pix" placeholder="Insira a chave Pix">
+    
+                    <label for="valor">Valor:</label>
+                    <input type="number" id="valor" name="valor" placeholder="Insira o valor">
+    
+                    <button type="submit">Depositar</button>
+                </form>
+            </div>
+        </div>        
+    </main>
+    <footer class="rodape">
+        <p>fanciscosoares@gmail.com</p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

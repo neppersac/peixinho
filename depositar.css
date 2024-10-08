@@ -1,0 +1,98 @@
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    display: flex;
+    width: 350px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Lado esquerdo: Formas de Depósito */
+.formas-deposito {
+    width: 40%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+.formas-deposito img {
+    width: 60%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background-color: #f8f9fa;
+}
+
+.formas-deposito ul li{
+    padding: 15px 25px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.formas-deposito h2 {
+    margin-bottom: 20px;
+}
+
+.formas-deposito ul {
+    list-style: none;
+}
+
+.formas-deposito ul li {
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+/* Lado direito: Campos de Depósito */
+.campos-deposito {
+    width: 60%;
+    padding: 20px;
+}
+
+.campos-deposito h2 {
+    margin-bottom: 20px;
+}
+
+.campos-deposito form {
+    display: flex;
+    flex-direction: column;
+}
+
+.campos-deposito label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.campos-deposito input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.campos-deposito button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.campos-deposito button:hover {
+    background-color: #218838;
+}
