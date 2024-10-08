@@ -12,7 +12,7 @@ td {
     font-size: 18px;
 }
 
-button {
+button, section a {
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -27,7 +27,7 @@ button {
     box-shadow: 0 9px #999;
   }
 
-button img{
+button img, section a{
     width: 40px;
     height: 40px;
 }
