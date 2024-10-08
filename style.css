@@ -1,8 +1,8 @@
 table {
     border-collapse: collapse;
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
+    width: 330px;
+    height: 330px;
+    margin: 10px 0px 10px 0px;
 }
 
 td {
@@ -13,8 +13,53 @@ td {
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+button img{
+    width: 40px;
+    height: 40px;
 }
+button:hover {background-color: #3e8e41}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+header {
+    border-radius: 25px;
+    background: #04AA6D;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+header nav a img{
+    width: 40px;
+    height: 40px;
+}
+
+a img:hover {background-color: #fff}
+
+main section{
+    border-radius: 25px;
+    border: 2px solid #04AA6D;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+}
+

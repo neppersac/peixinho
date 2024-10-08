@@ -4,23 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
+    <header class="cabecalho">
+        <h1>Peixinho</h1>
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html"><img src="images/home.png"/></a>
+            <a class="cabecalho__menu__link" href="about.html"><img src="images/help.png"/></a>            
+        </nav>
+    </header>
+    <main>        
+        <table id="tabela-numeros">
+            <!-- A tabela será preenchida dinamicamente com JavaScript -->
+        </table>
+        
+        <section>
+            <!-- Div para exibir as coincidências -->
+            <div id="resultado-coincidencias"></div>
 
-    <h1>Números Aleatórios</h1>
-    <table id="tabela-numeros">
-        <!-- A tabela será preenchida dinamicamente com JavaScript -->
-    </table>
-
-    <!-- Div para exibir as coincidências -->
-    <div id="resultado-coincidencias"></div>
-
-
-    <!-- Botão para gerar números -->
-    <button id="gerarNumeros">Gerar Números</button>
-    <!-- Botão para reiniciar os contadores -->
-    <button id="reiniciarContadores">Reiniciar</button>
+            <!-- Botão para gerar números -->
+            <button id="gerarNumeros" class="gerarNumeros"><img src="images/play.png"/></button>
+            <!-- Botão para reiniciar os contadores -->
+            <button id="reiniciarContadores" class="reiniciarContadores"><img src="images/restart.png"/></button>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>fanciscosoares@gmail.com</p>
+    </footer>
 
     <!-- Link para o arquivo JavaScript -->
     <script src="script.js"></script>
